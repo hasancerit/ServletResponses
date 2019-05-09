@@ -19,6 +19,24 @@
     <servlet-name>MoreResponseMethod</servlet-name>
     <url-pattern>/moreresponsemethod</url-pattern>
  </servlet-mapping>
+ 
+ <servlet>
+     <servlet-name>ResponseCookie</servlet-name>
+     <servlet-class>responsesp.ResponseCookie</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>ResponseCookie</servlet-name>
+    <url-pattern>/responsecookie</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+     <servlet-name>CheckCookies</servlet-name>
+     <servlet-class>responsesp.CheckCookies</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>CheckCookies</servlet-name>
+    <url-pattern>/check</url-pattern>
+ </servlet-mapping> 
   
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>

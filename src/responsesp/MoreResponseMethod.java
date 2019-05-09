@@ -62,6 +62,8 @@ public class MoreResponseMethod extends HttpServlet{
 		for (String headerName : headerNames) {
 			System.out.println(headerName);	
 		}
+		
+		//CHROME'DA F12-NETWORK YAPARSAK, GÝDEN HEADERLARI GÖREBÝLÝRÝZ.
 	}
 
 }
